@@ -1,0 +1,28 @@
+# 构建产物
+bin/
+obj/
+*.user
+
+# Visual Studio
+.vs/
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# 本地开发规范与 WorkBuddy 数据（不上传）
+/docs/
+/.workbuddy/
+
+# 测试与发布产物
+uitest/
+artifacts/
+publish/
+*.zip
+*.sha256
+
+# 日志
+*.log
+crash-*.txt
